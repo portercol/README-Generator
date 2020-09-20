@@ -1,7 +1,9 @@
 var inquirer = require("inquirer");
+const util = require("./utils/generateMarkdown");
+const fs = require("fs");
+// const writeFileAsync = util.promisify(fs.writeFile);
 
-// array of questions for user
-
+// using inquirer, create an array of questions for user
 inquirer
 .prompt([
 {
@@ -63,23 +65,28 @@ inquirer
 
 ])
 
+// promise is here
+
 .then(function(response){
     console.log(response)
 });
+
 // function to write README file
-// function writeToFile(fileName, data) {
-//     console.log(fileName, data);
-//     fs.writeFile(fileName, (data), function(err){
-//         if (err) {
-//             throw err;
-//         };
-//     });
-// };
+
+fs.writeFile('README.md', '', (err) => {
+	// if there are any errors in writing to the file, return below
+	if (err) {
+		console.error(err)
+		return
+	}
+});
 
 // function to initialize program
-//function init() {
 
-//}
+function init() {
+
+}
 
 // function call to initialize program
-//init();
+
+init();
