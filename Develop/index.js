@@ -73,7 +73,7 @@ inquirer
 
 // function to write README file
 
-fs.writeFile('README.md', '', (err) => {
+fs.writeFile('README.md', 'A New README.md', (err) => {
 	// if there are any errors in writing to the file, return below
 	if (err) {
 		console.error(err)
@@ -85,7 +85,7 @@ fs.writeFile('README.md', '', (err) => {
 
 function init() {
 
-}
+};
 
 // function call to initialize program
 
