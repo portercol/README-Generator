@@ -1,10 +1,8 @@
 var inquirer = require("inquirer");
 const util = require("./utils/generateMarkdown");
 const fs = require("fs");
-// const writeFileAsync = util.promisify(fs.writeFile);
 
 // using inquirer, create an array of questions for user
-
 const questions = inquirer.prompt([
     {
         type: "input",
@@ -28,18 +26,12 @@ const questions = inquirer.prompt([
     },
     {
         type: "list",
-        name: "licenseList",
+        name: "license",
         message: "Which license would you like to use?",
         choices: [
-            'Apache License 2.0',
-            'BSD 3-Clause (New or Revised) license',
-            'BSD 2-Clause (Simplified or FreeBSD) license',
-            'GNU (General Public License GPL)',
-            'GNU Library or (Lesser General Public License LGPL)',
-            'MIT license',
-            'Mozilla Public License 2.0',
-            'Common Development and Distribution License',
-            'Eclipse Public License version 2.0'
+            'Apache',
+            'GNU',
+            'MIT',
         ]
     },
     {
@@ -66,12 +58,16 @@ const questions = inquirer.prompt([
 ])
 
     // promise is here
-
     .then(function (response) {
+
+        // store util (generate markdown) in a variable to call later
         var temp = util(response)
+
+        // calling function writeReadme and passing through the generate markdown answers)
         writeReadme(temp)
     });
-    
+
+
 // function to write README file
 
 function writeReadme(temp) {
@@ -84,12 +80,8 @@ function writeReadme(temp) {
     });
 }
 // function to initialize program
-
 function init() {
-    // const title = util 
-    // fs.writeFile("README.md", title)
 };
 
 // function call to initialize program
-
 init();
