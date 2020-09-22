@@ -4,8 +4,8 @@ const fs = require("fs");
 // const writeFileAsync = util.promisify(fs.writeFile);
 
 // using inquirer, create an array of questions for user
-inquirer
-.prompt([
+
+const questions = inquirer.prompt([
 {
     type: "input",
     name: "title",
@@ -73,8 +73,8 @@ inquirer
 
 // function to write README file
 
-fs.writeFile('README.md', 'A New README.md', (err) => {
-	// if there are any errors in writing to the file, return below
+fs.writeFile('README.md', 'README.md Generator', (err) => {
+// if there are any errors in writing to the file, return below
 	if (err) {
 		console.error(err)
 		return
@@ -84,7 +84,8 @@ fs.writeFile('README.md', 'A New README.md', (err) => {
 // function to initialize program
 
 function init() {
-
+    // const title = util 
+    // fs.writeFile("README.md", title)
 };
 
 // function call to initialize program
