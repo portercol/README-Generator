@@ -1,5 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  console.log("whats up")
     return `# ${data.title}
 
     ## Description
