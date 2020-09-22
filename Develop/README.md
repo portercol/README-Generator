@@ -1,30 +1,27 @@
+# README Generator
 
-
-# Title
-
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-GNU-blue.svg)](https://opensource.org/licenses/GNU)
 
 ## Description
-
+a
 
 ## Installation
-
+a
 
 ## Table of Contents
-
+a
 
 ## License
-MIT
+GNU
 
 ## Contributors
-
+a
 
 ## Usage
-
+a
 
 ## Tests
-
+a
 
 ## Questions
-
+a
