@@ -1,27 +1,27 @@
-# README Generator
+# README-Generator
 
-[![License](https://img.shields.io/badge/License-GNU-blue.svg)](https://opensource.org/licenses/GNU)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-a
+Generate a README.md file using node.js
 
 ## Installation
-a
+Install Inquirer
 
 ## Table of Contents
-a
+N/A
 
 ## License
-GNU
+MIT
 
 ## Contributors
-a
+N/A
 
 ## Usage
-a
+To generate a good README.md
 
 ## Tests
-a
+N/A
 
 ## Questions
-a
+N/A
