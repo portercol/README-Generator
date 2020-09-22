@@ -80,8 +80,8 @@ function writeReadme(temp) {
     });
 }
 // function to initialize program
-function init() {
-};
+// function init() {
+// };
 
 // function call to initialize program
-init();
+// init();
