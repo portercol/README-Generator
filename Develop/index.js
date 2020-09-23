@@ -61,10 +61,10 @@ const questions = inquirer.prompt([
     .then(function (response) {
 
         // store util (generate markdown) in a variable to call later
-        var answers = util(response)
+        var answers = util(response);
 
         // calling function writeReadme and passing through the generate markdown answers)
-        writeReadme(answers)
+        writeReadme(answers);
     });
 
 
@@ -78,10 +78,4 @@ function writeReadme(answers) {
             return
         }
     });
-}
-// function to initialize program
-// function init() {
-// };
-
-// function call to initialize program
-// init();
+};
