@@ -28,6 +28,6 @@ ${data.tests}
 ## Questions
 ${data.questions}
 `;
-}
+};
 
 module.exports = generateMarkdown;
