@@ -13,3 +13,7 @@ Asked to generate a README.md file using node.js and the inquirer package with c
     3. Generate a markdown file and enter data to be pulled from
     4. Write file using fs.writeFile
 
+## Credits/Technologies
+    1. JavaScript
+    2. Node.js
+    3. Inquirer Package
