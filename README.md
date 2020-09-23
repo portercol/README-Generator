@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Link to walkthrough: [README Generator Walkthrough]()
+Link to walkthrough: [README Generator Walkthrough](https://drive.google.com/file/d/1pmkgB8YdTGQR9sl2uYLp-aAfGmAzwTac/view)
 
 ## Description
 Asked to generate a README.md file using node.js and the inquirer package with certain criteria to be met.
