@@ -3,25 +3,13 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-Generate a README.md file using node.js
+Asked to generate a README.md file using node.js and the inquirer package with certain criteria to be met.
 
 ## Installation
-Install Inquirer
-
-## Table of Contents
-N/A
+    1. Install the inquirer package
+    2. Prompt user to answer questions to generate a README.md
+    3. Generate a markdown file and enter data to be pulled from
+    4. Write file using fs.writeFile
 
 ## License
 MIT
-
-## Contributors
-N/A
-
-## Usage
-To generate a good README.md
-
-## Tests
-N/A
-
-## Questions
-N/A
