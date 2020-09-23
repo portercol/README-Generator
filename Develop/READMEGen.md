@@ -1,15 +1,12 @@
-# My README-Generator
+# A Good Generated README
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-A generated README file using the inquirer package
+A README Generated using a command line application
 
 ## Installation
-1. Install Inquirer 
-2. Answer prompt questions 
-3. Bring markdown.js info into the file 
-4. Write file
+Install inquirer, answer questions, create markdown file and write to README.
 
 ## Table of Contents
 N/A
@@ -21,7 +18,7 @@ MIT
 No
 
 ## Usage
-To generate README files
+Generating README files
 
 ## Tests
 N/A
