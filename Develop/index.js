@@ -61,17 +61,17 @@ const questions = inquirer.prompt([
     .then(function (response) {
 
         // store util (generate markdown) in a variable to call later
-        var temp = util(response)
+        var answers = util(response)
 
         // calling function writeReadme and passing through the generate markdown answers)
-        writeReadme(temp)
+        writeReadme(answers)
     });
 
 
 // function to write README file
 
-function writeReadme(temp) {
-    fs.writeFile('README.md', temp, (err) => {
+function writeReadme(answers) {
+    fs.writeFile('READMEGen.md', answers, (err) => {
         // if there are any errors in writing to the file, return below
         if (err) {
             console.error(err)
