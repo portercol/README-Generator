@@ -13,6 +13,17 @@ Asked to generate a README.md file using node.js and the inquirer package with c
     3. Generate a markdown file and enter data to be pulled from
     4. Write file using fs.writeFile
 
+### Code for Questions
+![README Generator](images/questionsCode.png)
+### Code for function storing data in markdown file
+![README Generator](images/questionsCode2.png)
+### Code for markdown data to create README file
+![README Generator](images/markdownCode.png)
+### Running the app in command line
+![README Generator](images/commandLineApp.png)
+### Generated README file
+![README Generator](images/generatedReadme.png)
+
 ## Credits/Technologies
     1. JavaScript
     2. Node.js
